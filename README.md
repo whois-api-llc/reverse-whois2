@@ -11,6 +11,8 @@ languages.
 You'll need a
 [WhoisXmlApi account](https://reverse-whois-api.whoisxmlapi.com/signup) to
 authenticate.
+You can use either the **X-Authentication-Token** header or the **apiKey**
+parameter of the request's body.
 
 Please, refer to the
 [Reverse Whois API User Guide](https://reverse-whois-api.whoisxmlapi.com/docs)
