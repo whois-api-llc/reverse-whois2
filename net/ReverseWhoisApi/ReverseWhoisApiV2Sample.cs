@@ -17,8 +17,8 @@ namespace ReverseWhoisApi
         private const string ApiKey = "Your reverse whois api key";
 
         private const string Url =
-            "https://reverse-whois-api.whoisxmlapi.com/api/v2";
-        
+            "https://reverse-whois.whoisxmlapi.com/api/v2";
+
         private const string SearchParamsAdvanced =
             @"{
                 advancedSearchTerms: [
@@ -53,7 +53,7 @@ namespace ReverseWhoisApi
         {
             var responsePost = SendPostReverseWhois();
             PrintResponse(responsePost);
-            
+
             responsePost = SendPostReverseWhois(true);
             PrintResponse(responsePost);
 
@@ -100,7 +100,7 @@ namespace ReverseWhoisApi
             }
 
             var res = "";
-            
+
             using (var response=(HttpWebResponse)httpWebRequest.GetResponse())
             using (var responseStream = response.GetResponseStream())
             {

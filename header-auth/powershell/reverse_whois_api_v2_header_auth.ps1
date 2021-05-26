@@ -33,7 +33,7 @@ $paramsBasic = @{
 # POST request        #
 #######################
 
-$uri = 'https://reverse-whois-api.whoisxmlapi.com/api/v2'
+$uri = 'https://reverse-whois.whoisxmlapi.com/api/v2'
 
 $response = Invoke-WebRequest -Uri $uri -Method POST -Body $paramsBasic `
             -ContentType 'application/json' `

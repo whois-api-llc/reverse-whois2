@@ -50,7 +50,7 @@ public class ReverseWhoisV2HeaderAuthSample
     public String sendPost(boolean isAdvanced) throws Exception
     {
         String userAgent = "Mozilla/5.0";
-        String url = "https://reverse-whois-api.whoisxmlapi.com/api/v2";
+        String url = "https://reverse-whois.whoisxmlapi.com/api/v2";
 
         URL obj = new URL(url);
         HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();

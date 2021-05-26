@@ -39,7 +39,7 @@ function api_call(data, callback)
     var body = '';
 
     var opts = {
-        hostname: 'reverse-whois-api.whoisxmlapi.com',
+        hostname: 'reverse-whois.whoisxmlapi.com',
         path: '/api/v2',
         method:'POST',
         headers: {

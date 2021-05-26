@@ -12,7 +12,7 @@ use warnings;
 ########################
 my $api_key = 'Your reverse whois api key';
 
-my $url = 'https://reverse-whois-api.whoisxmlapi.com/api/v2';
+my $url = 'https://reverse-whois.whoisxmlapi.com/api/v2';
 
 my $search_params_advanced = '{
     "advancedSearchTerms": [

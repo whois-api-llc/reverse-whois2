@@ -49,7 +49,7 @@ headers = {
     'X-Authentication-Token': api_key
 }
 
-conn = http.HTTPSConnection('reverse-whois-api.whoisxmlapi.com')
+conn = http.HTTPSConnection('reverse-whois.whoisxmlapi.com')
 
 # Basic search
 

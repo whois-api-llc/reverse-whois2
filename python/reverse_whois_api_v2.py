@@ -50,7 +50,7 @@ headers = {
     'Accept': 'application/json'
 }
 
-conn = http.HTTPSConnection('reverse-whois-api.whoisxmlapi.com')
+conn = http.HTTPSConnection('reverse-whois.whoisxmlapi.com')
 
 # Basic search
 

@@ -34,7 +34,7 @@ function reverse_whois_api(array $data=array())
     $header  = "Content-Type:application/json\r\nAccept:application/json\r\n";
     $header .= "X-Authentication-Token: {$apiKey}\r\n";
 
-    $url = 'https://reverse-whois-api.whoisxmlapi.com/api/v2';
+    $url = 'https://reverse-whois.whoisxmlapi.com/api/v2';
 
     $options = array(
         'http' => array(
